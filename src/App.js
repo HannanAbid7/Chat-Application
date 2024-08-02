@@ -4,7 +4,7 @@ import './App.css';
 import io from 'socket.io-client';
 import Chat from './chat.js'
 
-const socket=io.connect("https://chat-application-backend-delta.vercel.app");
+const socket=io.connect("https://chat-application-backend-delta.vercel.app/");
 
 function App() {
   const [username,setUsername]=useState("");
